@@ -212,6 +212,10 @@ vendor/firmware/goodix-tianma-gt9916S-2201040d-61EA66BC-rhodep.bin
 vendor/firmware/mot_dw9781c.prog
 vendor/firmware/sec_s3nrn4v_firmware.bin
 
+# NFC
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-sec-vendor.conf
+
 # QDCM
 vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_655.xml
 vendor/etc/qdcm_calib_data_mipi_mot_cmd_tm_1080p_dsc_655.xml
