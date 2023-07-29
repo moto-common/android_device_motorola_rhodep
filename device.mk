@@ -48,7 +48,7 @@ BOOT_KERNEL_MODULES := \
     goodix_brl_mmi.ko
 
 # NFC
-TARGET_USES_PN5XX_PN8X_NFC := true
+TARGET_USES_SEC_NFC := true
 
 # Power
 TARGET_IS_BLAIR := true
