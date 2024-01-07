@@ -20,6 +20,25 @@ vendor/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Camera
+vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so
+vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom.so
+vendor/lib64/camera/com.mot.eeprom.mot_rhodep_gc02m1_otp.so
+vendor/lib64/camera/com.mot.eeprom.mot_rhodep_s5k4h7_otp.so
+vendor/lib64/camera/com.qti.sensor.mot_gc02m1.so
+vendor/lib64/camera/com.qti.sensor.mot_ov16a1q.so
+vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so
+vendor/lib64/camera/com.qti.sensor.mot_s5kjn1.so
+vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_gc02m1_sunwin.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_ov16a1q_ofilm.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_s5k4h7_qtech_ff.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_s5kjn1_qtech.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_s5kjn1_sunny.bin
+vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.qti.tuned.mot_rhodep_gc02m1.bin
+vendor/lib64/camera/com.qti.tuned.mot_rhodep_ov16a1q.bin
+vendor/lib64/camera/com.qti.tuned.mot_rhodep_s5k4h7ff.bin
+vendor/lib64/camera/com.qti.tuned.mot_rhodep_s5kjn1.bin
+vendor/lib64/camera/com.qti.tuned.mot_rhodep_s5kjn1_2nd.bin
 vendor/lib64/camera/components/com.arcsoft.node.mfnr.so
 vendor/lib64/camera/components/com.mot.node.dc_capture.so
 vendor/lib64/camera/components/com.mot.node.dc_preview.so
@@ -51,44 +70,29 @@ vendor/lib64/camera/components/com.qti.node.swmfnr.so
 vendor/lib64/camera/components/com.qti.node.swpdpc.so
 vendor/lib64/camera/components/com.qti.node.swpreprocess.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
-vendor/lib64/camera/components/com.qtistatic.stats.aec.so
-vendor/lib64/camera/components/com.qtistatic.stats.af.so
-vendor/lib64/camera/components/com.qtistatic.stats.awb.so
-vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.qti.stats.aec.so
 vendor/lib64/camera/components/com.qti.stats.aecwrapper.so
 vendor/lib64/camera/components/com.qti.stats.aecxcore.so
-vendor/lib64/camera/components/com.qti.stats.afd.so
 vendor/lib64/camera/components/com.qti.stats.af.so
+vendor/lib64/camera/components/com.qti.stats.afd.so
 vendor/lib64/camera/components/com.qti.stats.afwrapper.so
 vendor/lib64/camera/components/com.qti.stats.asd.so
 vendor/lib64/camera/components/com.qti.stats.awb.so
 vendor/lib64/camera/components/com.qti.stats.awbwrapper.so
 vendor/lib64/camera/components/com.qti.stats.cnndriver.so
-vendor/lib64/camera/components/com.qti.stats.hafoverride.so
 vendor/lib64/camera/components/com.qti.stats.haf.so
+vendor/lib64/camera/components/com.qti.stats.hafoverride.so
 vendor/lib64/camera/components/com.qti.stats.pdlib.so
 vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
+vendor/lib64/camera/components/com.qtistatic.stats.aec.so
+vendor/lib64/camera/components/com.qtistatic.stats.af.so
+vendor/lib64/camera/components/com.qtistatic.stats.awb.so
+vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.vidhance.node.ica.so
 vendor/lib64/camera/components/com.vidhance.node.processing.so
 vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
-vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_gc02m1_sunwin.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_ov16a1q_ofilm.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_s5k4h7_qtech_ff.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_s5kjn1_qtech.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_rhodep_s5kjn1_sunny.bin
-vendor/lib64/camera/com.qti.sensor.mot_gc02m1.so
-vendor/lib64/camera/com.qti.sensor.mot_ov16a1q.so
-vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so
-vendor/lib64/camera/com.qti.sensor.mot_s5kjn1.so
-vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.mot_rhodep_gc02m1.bin
-vendor/lib64/camera/com.qti.tuned.mot_rhodep_ov16a1q.bin
-vendor/lib64/camera/com.qti.tuned.mot_rhodep_s5k4h7ff.bin
-vendor/lib64/camera/com.qti.tuned.mot_rhodep_s5kjn1_2nd.bin
-vendor/lib64/camera/com.qti.tuned.mot_rhodep_s5kjn1.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
@@ -100,7 +104,6 @@ vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.frameselect.so
 vendor/lib64/com.qti.feature2.fusion.so
-vendor/lib64/com.qti.feature2.generic.so
 vendor/lib64/com.qti.feature2.generic.so
 vendor/lib64/com.qti.feature2.gs.mannar.so
 vendor/lib64/com.qti.feature2.hdr.so
@@ -175,6 +178,7 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera Arcsoft
 vendor/lib64/libarcsoft_low_light_shot.so
+vendor/lib64/liblowlight_ai_portrait.arcsoft.so
 
 # Camera Configs
 vendor/etc/camera/aec_golden_wide.bin
